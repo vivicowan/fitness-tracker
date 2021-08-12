@@ -17,6 +17,7 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/Fitness", {
   useCreateIndex: true,
   useUnifiedTopology: true,
 });
+//hehe
 
 // routes
 app.use(require("./routes/apiRoutes"));
